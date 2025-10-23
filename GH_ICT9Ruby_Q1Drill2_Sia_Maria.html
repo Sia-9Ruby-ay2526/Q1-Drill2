@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html> 
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Q1 Drill 2</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&family=Bungee&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Epunda+Sans:ital,wght@0,300..900;1,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+  <style type="text/css">
+      body{
+          font-family:"Epunda Sans", sans-serif;
+      }
+
+      
+      form{
+        background-color: White;
+        width: 70%;
+        padding: 20px;
+        margin: auto;
+        border-radius: 15px;
+        border: 20px ridge ;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+      legend{
+        background-color: White;
+        border-radius: 5px;
+        color: white;
+        padding: 5px 10px;
+      }
+
+      input[type="submit"], [type="reset"]
+        {
+          width:10em;
+          height: 2em;
+          background: white;
+          border: 10px solid 
+          border-radius:4px;
+          color: white;
+          font-size:inherit;
+          flex: 0 1 8em;
+          margin: 0 auto;
+        }
+
+      H1{
+          text-align:center;
+      }
+
+</style>
+</head>
+</body>
+
+<form>
+<h1 style="color: #143109;">Music Recommendations</h1>
+
+<!--User Info-->
+  <fieldset> 
+    <legend><h2 style="color: #81a094;">User Information</h2></legend>
+      <label for="name">First name:</label>
+        <input type="text" id="fname" name="name"
+        placeholder="Full name"><br>
+      <label for="Email">Email:</label>
+        <input type="password" id="Email" name="Email"
+        placeholder="Email"><br>
+      <label for="name">Recommended Music Title:</label>
+        <input type="text" id="Song" name="Song"
+        placeholder="Recommeneded Music Title"><br>
+      <label for="Recommended Music Title">Why Do You Recommend It?</label>
+        <input type="text" id="Why Do You Recommend It?" name="Why Do You Recommend It?"
+        placeholder="Feedback"><br>
+    </fieldset>
+  
+  <!--Selections-->
+  <fieldset>
+    <legend><h2 style="color: #81a094;">Genres (select all that apply)</h2></legend>
+    <input type="checkbox" id="Pop" name="Pop" value="Pop">
+    <label for="checkbox 1"> Pop</label>
+    <input type="checkbox" id="Rock" name="Rock" value="Rock">
+    <label for="checkbox 2"> Rock</label>
+    <input type="checkbox" id="" name="Metal" value="Metal">
+    <label for="checkbox 3">Metal</label>
+    <input type="checkbox" id="Jazz" name="Jazz" value="Jazz">
+    <label for="checkbox 4">Jazz</label>
+    <input type="checkbox" id="Classical" name="Classical" value="Classical">
+    <label for="checkbox 5">Classical</label>
+    <input type="checkbox" id="Hip-Hop/Rap" name="Hip-Hop/Rap" value="Hip-Hop/Rap">
+    <label for="checkbox 6"> Hip-Hop/Rap</label>
+    <input type="checkbox" id="Country" name="Country" value="Country">
+    <label for="checkbox 7">Country</label>
+    <input type="checkbox" id="Folk" name="Folk" value="Folk">
+    <label for="checkbox 8">Folk</label>
+    <input type="checkbox" id="Electronic" name="Electronic" value="Electronic">
+    <label for="checkbox 9">Electronic</label>
+    <input type="checkbox" id="OPM" name="OPM" value="OPM">
+    <label for="checkbox 10"> OPM</label>
+    <input type="checkbox" id="Kpop" name="Kpop" value="Kpop">
+    <label for="checkbox 11"> Kpop</label>
+
+    <!--Ratings-->
+    <fieldset>
+    <legend><h2 style="color: #81a094;">Rate the Song:</h2></legend>
+    <input type="radio" id="1" name="1" value="1">
+    <label for="radio 1">1</label>
+    <input type="radio" id="2" name="2" value="2">
+    <label for="radio 2">2</label>
+    <input type="radio" id="3" name="3" value="3">
+    <label for="radio 3">3</label>
+    <input type="radio" id="4" name="4" value="4">
+    <label for="checkbox 4">4</label>
+    <input type="radio" id="5" name="5" value="5">
+    <label for="radio 5">5</label>
+
+
+<!--Where Did You Hear It?-->
+<fieldset>
+<legend><h2 style="color: #81a094;"> Where Did You Hear It?:</h2></legend>
+    <textarea name="message" rows="4" cols="50"></textarea>
+
+
+ <!--Buttons-->
+ <label for="submission" size="20"> submission</label><br>
+<input type="submit" value="Submit">
+</fieldset>
+</html>
+
